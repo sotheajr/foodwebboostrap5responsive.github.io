@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>foodwebb5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .review_card {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .review_icon i {
+        color: #f4b400;
+      }
+
+      .review_social i {
+        margin-right: 10px;
+        color: #333;
+      }
+
+      h4 {
+        font-size: 0.95rem;
+        color: #555;
+      }
+      .order_image img {
+        width: 600px;
+        height: 500px;
+        border-radius: 50%;
+      }
+      footer {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+      }
+      .footer_tag {
+        margin-bottom: 20px;
+      }
+      .row text-center .col-md-4 .image {
+        align-items: center;
+        margin-right: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="image/world-food-day-logo-with-healthy-food-ingredients-free-vector.jpg"
+            width="100px"
+            height="auto"
+            alt="logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active " href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#MenuA">Asian food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Review">Review</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Order">Order</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ourteam">Our Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="Home" class="container mt-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center text-lg-start">
+          <h1>
+            Get fresh <span>Food</span><br />
+            In an Easy way
+          </h1>
+          <p>
+            Explore global cuisine with a delightful array of flavors! From
+            spicy Indian curries to savory Italian pasta, each dish tells a
+            story. Discover the freshness of Japanese sushi, the warmth of
+            Mexican tacos, and the richness of French pastries. Embark on a
+            culinary journey that celebrates diversity and taste!.
+          </p>
+          <a href="#" class="btn btn-primary">Order Menu</a>
+        </div>
+        <div class="col-lg-6 text-center">
+          <img
+            src="image/BgSub_cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTExL3Jhd3BpeGVsb2ZmaWNlMTlfYV9pbmRpYW5fbWVhbF90cmF5X19oaW50X29mX2ZsYXRsYXlfb2JqZWN0X191c18wY2U2NGE5YS04YzVjLTRkMDctYTE0MS01MTBlODlhZGU0ODEucG5n.png"
+            alt="image_food"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </section>
+    <div class="container py-5" id="About">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="image">
+            <img src="image/food-plate-fish.png" alt="food" class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="about_text">
+            <h1><span>About</span>Us</h1>
+            <h3>Why do you choose us?</h3>
+            <h4>
+              Welcome to our global cuisine page! Here, we celebrate the vibrant
+              tapestry of flavors and traditions from around the world. From the
+              aromatic spices of Indian curries to the comforting embrace of
+              Italian pasta, each dish has a story to tell. We invite you to
+              explore the culinary delights of various cultures, showcasing
+              everything from street food favorites to gourmet experiences. Our
+              mission is to connect people through the joy of cooking and
+              eating, inspiring you to try new recipes and share in the love of
+              food. Join us on this delicious journey around the globe!
+            </h4>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="#" class="btn btn-primary about_btn">Order Now</a>
+      </div>
+    </div>
+    <!----------menu------------->
+    <div class="container py-5" id="Menu">
+      <h1 class="text-center mb-4">Menu<span>Our</span></h1>
+      <div class="row">
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_pngtree-d-rendered-hamburger-buger.png"
+                alt="Buger"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Beger</h2>
+              <h3>$28.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- កាតផ្សេងទៀត -->
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_png-transparent-dis-garlic-knot-food-plate.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Garlic</h2>
+              <h3>$18.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- កាតផ្សេងៗ -->
+        <!-- You can continue adding other menu items following the same structure -->
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_png-transparent-fast-food-hamburger-sushi-pizza-fast-food-food-breakfast-fast-food-restaurant-thumbnail.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger KFC</h2>
+              <h3>$20.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_gratis-png-carne-cocida-con-papas-fritas-y-ensalada-de-arte-kebab-papas-fritas-hamburguesa-plato-de-falafel-kebab.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger KFC</h2>
+              <h3>$5.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_pngtree-deliciously-healthy-grilled-chicken-salad-served-on-a-dark-textured-table-image_13634822.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger</h2>
+              <h3>$13.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_main-qimg-e1ee0c9d76f519f13d38be0aff4fa367.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger</h2>
+              <h3>$16.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_IMG_5205-1.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger</h2>
+              <h3>$15.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_images.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger</h2>
+              <h3>$13.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/pngtree-3d-food-burger-multi.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger</h2>
+              <h3>$10.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_3296611-d1799f167c4945e5a9133be468cbd123.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger</h2>
+              <h3>$12.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_balsamic-glazed-carrots - Copy.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger</h2>
+              <h3>$13.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-lg-3 mb-4">
+          <div class="menu_card">
+            <div class="menu_image">
+              <img
+                src="image/BgSub_pngtree.png"
+                alt="Garlic"
+                class="img-fluid"
+              />
+              <div class="smile_card">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+            <div class="menu_info">
+              <h2>Buger</h2>
+              <h3>$13.00</h3>
+              <h4>Lorem ipsum,</h4>
+              <div class="menu_icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <div class="menu_btn">
+                <a href="#" class="btn btn-primary">Order Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------Asian Food---------->
+    <div class="container py-4" id="MenuA">
+      <h1 class="text-center"><span>Asian</span> Food</h1>
+
+      <!-- Image Section -->
+      <div class="row text-center">
+        <div class="col-12 col-md-4">
+          <img
+            src="Asianfoodimage/download.png"
+            alt="flag"
+            class="img-fluid"
+            width="100px"
+          />
+        </div>
+        <div class="col-12 col-md-4">
+          <img
+            src="Asianfoodimage/images.png"
+            alt="flag"
+            class="img-fluid"
+            width="90px"
+          />
+        </div>
+        <div class="col-12 col-md-4">
+          <img
+            src="Asianfoodimage/thailand-flag-vector-6437802.jpg"
+            alt="flag"
+            class="img-fluid"
+            width="80px"
+          />
+        </div>
+      </div>
+
+      <!-- Menu Section -->
+      <div class="row mt-4">
+        <!-- Menu Item 1 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/Best-authentic-Khmer-cuisine-beyond-fish-amok-and-lok-lak.jpg"
+              class="card-img-top img-fluid"
+              alt="Khmer-cuisine"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">Khmer-cuisine</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$28.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 2 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/106816057_xHwsSR3AKfbjx-SbFQXjjD3-2PKbzoPy4Q9ZkFYaBfU.jpg"
+              class="card-img-top img-fluid"
+              alt="Amok Khmer"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">Amok Khmer</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$15.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 3 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/maxresdefault.jpg"
+              class="card-img-top img-fluid"
+              alt="Sour Soup"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">Sour Soup</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$20.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 4 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/maxresdefault (1).jpg"
+              class="card-img-top img-fluid"
+              alt="Fried Food"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">Fried Food</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$22.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 5 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/151215114545-40-thai-food-27-som-tam-1.jpg"
+              class="card-img-top img-fluid"
+              alt="Sour Soup"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">spicy Payaya</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$12.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 6 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/Easy-Vegan-Pad-Thai-SQUARE.jpg"
+              class="card-img-top img-fluid"
+              alt="Sour Soup"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">Pad-Thai</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$8.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 7 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/mookata-thai-bbq-thaifood-grill-thailand-asia-korean-food-321507932.webp"
+              class="card-img-top img-fluid"
+              alt="Sour Soup"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">mookata</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$10.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 8 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/Southeast-Asian-Food-Tom-Yum-Goong-1.jpg"
+              class="card-img-top img-fluid"
+              alt="Sour Soup"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">Tom-Yum</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$14.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 9 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/sashimi-min.jpeg"
+              class="card-img-top img-fluid"
+              alt="Sour Soup"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">sashimi</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$20.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- Menu Item 10 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/Japanese-food-main_jcd.jpg"
+              class="card-img-top img-fluid"
+              alt="Sour Soup"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">Japanese-food</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$18.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 11 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/680DDC8E-CB29-4443-96EC-A7A3E0C820A7.jpeg"
+              class="card-img-top img-fluid"
+              alt="Sour Soup"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">Soup</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$20.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Menu Item 12 -->
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card h-100">
+            <img
+              src="Asianfoodimage/maxresdefault (2).jpg"
+              class="card-img-top img-fluid"
+              alt="Sour Soup"
+            />
+            <div class="card-body text-center">
+              <h2 class="card-title">Sour Soup</h2>
+              <h3 class="card-subtitle mb-2 text-muted">$20.00</h3>
+              <div class="text-warning mb-2">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+              <a href="#" class="btn btn-success">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery  -->
+    <div class="container" id="Gallery">
+      <div class="gallery py-5 mb-4 text-center bg-pink">
+        <h1>Our <span>Gallery</span></h1>
+      </div>
+      <div class="row g-3">
+        <!-- Gallery Item 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="gallery_image_box">
+            <div class="gallery_image">
+              <img
+                src="Gallary/sandwich.jpg"
+                class="img-fluid"
+                width="380px"
+                alt="Sandwich"
+              />
+              <a href="#" class="btn btn-primary d-block mt-2">ORDER NOW</a>
+              <a href="#" class="btn btn-secondary d-block mt-2">Sandwich</a>
+              <p>
+                Explore the delicious variety of global sandwiches! From classic
+                subs to unique regional creations, each bite offers a taste of
+                culture.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Item 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="gallery_image_box">
+            <div class="gallery_image">
+              <img
+                src="Gallary/png-clipart-gelato-chocolate-ice-cream-sundae-neapolitan-ice-cream-ice-cream-cream-food-thumbnail.png"
+                class="img-fluid"
+                alt="Ice Cream"
+              />
+              <a href="#" class="btn btn-primary d-block mt-2">ORDER NOW</a>
+              <a href="#" class="btn btn-secondary d-block mt-2">Ice Cream</a>
+              <p>
+                Indulge in a world of global ice cream! Discover unique flavors
+                and styles from various cultures, each scoop a delightful treat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Gallery Item 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="gallery_image_box">
+            <div class="gallery_image">
+              <img
+                src="Gallary/download (5).jpeg"
+                class="img-fluid"
+                width="800px"
+                alt="Meatballs"
+              />
+              <a href="#" class="btn btn-primary d-block mt-2">ORDER NOW</a>
+              <a href="#" class="btn btn-secondary d-block mt-2">Meatballs</a>
+              <p>
+                Savor the delightful diversity of global meatballs! From Italian
+                classic to Swedish favorites, each recipe brings unique flavors
+                and traditions
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for other items -->
+      </div>
+    </div>
+    <!-- Review Card-->
+    <div class="container my-5">
+      <div class="review" id="Review">
+        <h1 class="text-center">Customer<span> Review</span></h1>
+        <div class="row g-4">
+          <!-- Review Card 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="review_card">
+              <div class="review_profile text-center">
+                <img
+                  src="Gallary/ThonThan.png"
+                  class="img-fluid"
+                  width="188px"
+                  height="180px"
+                  alt="Thon Than"
+                />
+              </div>
+              <div class="review_text">
+                <h2 class="name text-center">Thon Than</h2>
+                <div class="review_icon text-center">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social text-center mt-2">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <h4 class="mt-3">
+                  At 20, individuals start to solidify their identities. This
+                  age often brings a mix of college life, part-time jobs, and
+                  early adult responsibilities, fostering personal growth and
+                  new experiences.
+                </h4>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat other review cards here using the same structure -->
+
+          <!-- Review Card 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="review_card">
+              <div class="review_profile text-center">
+                <img
+                  src="Gallary/Kimseang.png"
+                  class="img-fluid"
+                  width="188px"
+                  height="180px"
+                  alt="Kim Seang"
+                />
+              </div>
+              <div class="review_text">
+                <h2 class="name text-center">Kim Seang</h2>
+                <div class="review_icon text-center">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social text-center mt-2">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <h4 class="mt-3">
+                  At 22, many are entering the workforce or finishing their
+                  education. This age is characterized by greater independence,
+                  goal-setting, and the challenges of transitioning into a
+                  stable career path.
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review Card 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="review_card">
+              <div class="review_profile text-center">
+                <img
+                  src="Gallary/Odom.png"
+                  class="img-fluid"
+                  width="188px"
+                  height="180px"
+                  alt="Odom"
+                />
+              </div>
+              <div class="review_text">
+                <h2 class="name text-center">Odom</h2>
+                <div class="review_icon text-center">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social text-center mt-2">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <h4 class="mt-3">
+                  Turning 21 is often celebrated as a milestone of legal
+                  adulthood in many places, bringing newfound freedoms. It’s a
+                  time of exploration, social activities, and sometimes greater
+                  focus on career or education.
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review Card 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="review_card">
+              <div class="review_profile text-center">
+                <img
+                  src="Gallary/Marane.png"
+                  class="img-fluid"
+                  width="250px"
+                  height="180px"
+                  alt="Marane"
+                />
+              </div>
+              <div class="review_text">
+                <h2 class="name text-center">Marane</h2>
+                <div class="review_icon text-center">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social text-center mt-2">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <h4 class="mt-3">
+                  At 18, many are embarking on adulthood, exploring
+                  independence. This age often marks high school graduation, new
+                  responsibilities, and the excitement of college or starting a
+                  career.
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="review_card">
+              <div class="review_profile text-center">
+                <img
+                  src="Gallary/BgSub_photo_2024-05-16_15-32-50.png"
+                  class="img-fluid"
+                  width="250px"
+                  height="180px"
+                  alt="Marane"
+                />
+              </div>
+              <div class="review_text">
+                <h2 class="name text-center">Sothea</h2>
+                <div class="review_icon text-center">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social text-center mt-2">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <h4 class="mt-3">
+                  Nineteen-year-olds typically continue to navigate early
+                  adulthood. Many are deepening their studies, making new
+                  friends, and discovering their interests and passions, often
+                  with a sense of adventure
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="review_card">
+              <div class="review_profile text-center">
+                <img
+                  src="Gallary/app.png"
+                  class="img-fluid"
+                  width="250px"
+                  height="180px"
+                  alt="Marane"
+                />
+              </div>
+              <div class="review_text">
+                <h2 class="name text-center">Sreynich</h2>
+                <div class="review_icon text-center">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="review_social text-center mt-2">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <h4 class="mt-3">
+                  By 30, individuals typically reflect on their accomplishments
+                  and future goals. Many are establishing careers, families, and
+                  deeper relationships, often seeking balance and fulfillment in
+                  various aspects of life.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Order Section -->
+    <div class="container my-5" id="Order">
+      <h1 class="text-center"><span>Order</span> Now</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="order_image">
+            <img src="Gallary/cover.png" alt="Order Image" width="800px" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form action="#" method="post">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Your email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="number" class="form-label">Number</label>
+              <input
+                type="text"
+                class="form-control"
+                id="number"
+                placeholder="Your number"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="quantity" class="form-label">How Much</label>
+              <input
+                type="number"
+                class="form-control"
+                id="quantity"
+                placeholder="How much"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="foodName" class="form-label">Food Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="foodName"
+                placeholder="Food name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="address" class="form-label">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="Your address"
+                required
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Order Now</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team Section -->
+    <div class="container my-5" id="ourteam">
+      <h1 class="text-center">Our <span>Team</span></h1>
+
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="image">
+            <img src="Gallary/Chefs_2_08.jpg" alt="chef" class="img-fluid" />
+            <h3>Chef</h3>
+            <h4>
+              A chef with 30 years of experience brings a wealth of knowledge
+              and expertise to the culinary world. Over three decades, they have
+              honed their skills in various cuisines, mastering techniques and
+              flavors that enhance their dishes. They have likely worked in
+              diverse kitchen environments, from bustling restaurants to elegant
+              fine dining, allowing them to adapt to different culinary styles
+              and trends. This experience enables them to mentor younger chefs,
+              fostering a culture of creativity and excellence in the kitchen
+            </h4>
+            <div class="team_icon">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Add more team members as needed -->
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer_main">
+        <div class="row">
+          <div class="col-md-3 footer_tag">
+            <h2>Location</h2>
+            <p>Cambodia</p>
+            <p>USA</p>
+            <p>India</p>
+            <p>Japan</p>
+            <p>Italy</p>
+          </div>
+
+          <div class="col-md-3 footer_tag">
+            <h2>Contact</h2>
+            <p>098765432</p>
+            <p>0964868322</p>
+            <p>sotheachhum2@gmail.com</p>
+            <p>foodshop123@gmail.com</p>
+            <p>sotheaIt.hru@gmail.com</p>
+          </div>
+          <div class="col-md-3 footer_tag">
+            <h2>Our Service</h2>
+            <p>Fast Delivery</p>
+            <p>Easy Payment</p>
+            <p>24 X 7 Support</p>
+          </div>
+
+          <div class="col-md-3 footer_tag">
+            <h2>Follow Me</h2>
+            <p><i class="fab fa-instagram"></i> Instagram</p>
+            <p><i class="fab fa-facebook-f"></i> Facebook</p>
+            <p><i class="fab fa-twitter"></i> Twitter</p>
+            <p><i class="fab fa-linkedin-in"></i> LinkedIn</p>
+            <p><i class="fab fa-youtube"></i> YouTube</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
